@@ -101,6 +101,13 @@ h1 {
 
 }
 
+.HEADLIST {
+
+    color: yellow;
+    text-align: center;
+
+}
+
 header {
   background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
