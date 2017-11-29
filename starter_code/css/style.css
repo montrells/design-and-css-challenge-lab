@@ -78,6 +78,7 @@ h1 {
     margin: auto;
     height: 250px;
     background-color: #f9e42e;
+    text-align: center;
 
 
 }
@@ -93,6 +94,7 @@ h1 {
     font-size: 16px;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 
 }
 .button-text {
