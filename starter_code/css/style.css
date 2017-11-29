@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: design-and-css-challenge-lab
+Client: Relaxr
+Author: Montrell Story
+Developer @GA in Denver
 */
 
 
@@ -50,6 +50,11 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
+     background-color: #f0efef;
+
+}
+h1 {
+    font-size: 40px;
 }
 
 
@@ -58,26 +63,100 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
+
+.Middle-Container{
+
+    display: block;
+    padding: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.sign-up-now-DIV{   /*extra bold, 12px, 5px border radius*/
+
+    width: 100%;
+    margin: auto;
+    height: 250px;
+    background-color: #f9e42e;
+
+
+}
+.button-container-DIV{
+
+    background-color: darkblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+
+}
+.button-text {
+    font-weight: bolder;
+    color: white;
 
 }
 
 header {
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
+  height: 200px;
+}
+.logo-header{
+
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+
 }
 
 footer {
 
+
 }
+.footer-container{
+    background: #121212;
+    padding-bottom: 3rem;
+    text-align: center;
+    color: yellow;
+    font-size: 50px;
+
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+/*COLOR*/
+.COLOR-yellow {
+    color:#f9e42e;
+}
+
+.COLOR-dark-blue {
+    color: #033048;
+}
+
+.COLOR-grey {
+    color: #606161;
+}
+
+.COLOR-white {
+    color: #fff;
+}
+
+.COLOR-almost-black{
+
+    color: #121212;
+}
+
+.BG-COLOR-blue {
+    background-color: #033048;
+}
 
 
 
